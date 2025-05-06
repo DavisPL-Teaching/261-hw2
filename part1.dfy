@@ -112,9 +112,9 @@ method TestMax7(x : int, y: int)
   Comment on why it might be harder to generate counterexamples in Dafny, compared
   to Z3.
 
-  ###### Answer Q8 ######
+  ===== ANSWER Q8 BELOW =====
 
-  ###### End of Answer ######
+  ===== END OF Q8 ANSWER =====
 */
 
 /*
@@ -351,9 +351,9 @@ function square(x: int): int
   17. Try replacing Between_v1 with Between_v2 or Between_v3 in
   the implementation of BinarySearch. What happens?
 
-  ###### Answer Q17 ######
+  ===== ANSWER Q17 BELOW =====
 
-  ###### End of Answer ######
+  ===== END OF Q17 ANSWER =====
 
   18. Are there any advantages to leaving the interface (pre/postconditions)
   for Between abstract, so that multiple implementations are possible?
@@ -361,7 +361,7 @@ function square(x: int): int
   Which of your Between functions would be the most efficient to use
   in a real binary search implementation?
 
-  ###### Answer Q18 ######
+  ===== ANSWER Q18 BELOW =====
 
-  ###### End of Answer ######
+  ===== END OF Q18 ANSWER =====
 */

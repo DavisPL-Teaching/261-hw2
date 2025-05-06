@@ -194,3 +194,15 @@ method PartialSums(a: seq<int>) returns (b: seq<int>)
 //   var b2 := PartialSums(a2);
 //   print "b2 = ", b2, "\n";
 // }
+
+/*
+  6. Short answer
+
+  Which of the above loop invariants did you find hardest to solve?
+  Which was the easiest?
+  Comment on why this might be the case.
+
+  ===== ANSWER Q6 BELOW =====
+
+  ===== END OF Q6 ANSWER =====
+*/

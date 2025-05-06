@@ -55,7 +55,7 @@ It is a standard binary search; if you need to review, I recommend looking
 up the pseudocode for binary search online. For example, on
 [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm#Algorithm).
 
-## 2: constructor
+## 2.3
 
 Every method will need to use the class invariant as a precondition
 and postcondition, but for the constructor, it only needs a
@@ -64,7 +64,7 @@ postcondition.
 You will need an additional postcondition that the object is
 initialized correclty; you may find as_seconds() useful here.
 
-## 2: Tick
+## 2.4
 
 You will need to use the `old` keyword for the postcondition.
 You can also wrap a function invocation in `old`, for example:
@@ -73,7 +73,7 @@ You can also wrap a function invocation in `old`, for example:
 old(as_seconds())
 ```
 
-## 2: AdvanceBy
+## 2.6
 
 If you use a loop, your loop invariant
 can refer to old(...) as in the postcondition to Tick.
@@ -99,14 +99,12 @@ One way to add an element to a sequence is like this:
 a := a + [element];
 ```
 
-For examples of invariants on arrays/sequences, review the class notes.
+For examples of invariants on arrays/sequences, please review the class notes.
 
 ## 3.4
 
 In my implementation, I needed two lemmas.
-You should expermient with your code by adding assertions to figure out what
-Dafny knows and what it doesn't know about your input sequence.
+You should expermient with your code by adding assertions to figure out what Dafny knows and what it doesn't know about your input sequence.
 
-In my case, I needed one lemma about expressions of the form `a[..(i + 1)]`,
-and another about how `array_sum` behaves on an expression of this form.
-Note: It is possible to do it with only one lemma, and not two.
+The first of my lemmas was a lemma about expressions of the form `a[..(i + 1)]`, and the second was about how `array_sum` behaves on an expression of this form.
+(Note that it is also possible to do it with only one lemma, and not two.)
