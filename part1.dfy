@@ -110,7 +110,7 @@ method TestMax7(x : int, y: int)
   Did Dafny give a genuine counterexample?
 
   Comment on why it might be harder to generate counterexamples in Dafny, compared
-  to Z3.
+  to Z3. (Please answer more generally, not just for this example.)
 
   ===== ANSWER Q8 BELOW =====
 
