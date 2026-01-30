@@ -96,7 +96,7 @@ method TestMax7(x : int, y: int)
 /*
   8. Dafny has an experimental "show counterexample" feature
   that is intended to find a counterexample for a property that isn't true.
-  Unfortunately the tool does not always work as reliably as in Z3.
+  Unfortunately the tool does not always work reliably.
 
   Try out the feature by doing the following:
 
@@ -107,10 +107,10 @@ method TestMax7(x : int, y: int)
 
   Paste the output below.
   Please delete the "At file:///" clutter to leave only the counterexample itself.
-  Did Dafny give a genuine counterexample?
+  Did Dafny give a genuine counterexample? Did it crash or raise an error?
 
-  Comment on why it might be harder to generate counterexamples in Dafny, compared
-  to Z3. (Please answer more generally, not just for this example.)
+  Comment on why it might be hard to generate counterexamples in Dafny.
+  (Please answer more generally, not just for this example.)
 
   ===== ANSWER Q8 BELOW =====
 
