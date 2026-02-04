@@ -94,19 +94,24 @@ method TestMax7(x : int, y: int)
 }
 
 /*
-  8. Dafny has an experimental "show counterexample" feature
+  8. Dafny has an experimental "show verification trace" feature
   that is intended to find a counterexample for a property that isn't true.
-  Unfortunately the tool does not always work reliably.
+  This part will ask you to try out this feature!
+
+  Unfortunately the tool has not always worked reliably in the past,
+  but there has been some nice progress on it by the Dafny team recently.
 
   Try out the feature by doing the following:
 
   - Temporarily uncomment one of the assertions that is not true
-  - Right click, Dafny --> "Show counterexample (experimental)"
-  - Right click, Dafny --> "Copy counterexamples to clipboard"
-  - Comment out the assertion again, and right click, Dafny --> "Hide counterexamples (experimental)" to disable the feature again.
+  - Right click, Dafny --> "Show verification trace (experimental)"
+  - If this doesn't work, you can also try pressing F7, which should
+    turn on the feature.
 
-  Paste the output below.
-  Please delete the "At file:///" clutter to leave only the counterexample itself.
+  It should show you some outputs interactively in VSCode.
+  - Comment out the assertion again, and right click, Dafny --> "Hide verification trace (experimental)" to disable the feature again.
+
+  Paste any output you got below and describe what happened.
   Did Dafny give a genuine counterexample? Did it crash or raise an error?
 
   Comment on why it might be hard to generate counterexamples in Dafny.
@@ -126,7 +131,7 @@ method TestMax7(x : int, y: int)
   The underlying concept is that of *strongest postconditions*
   and (in the opposite direction), *weakest preconditions*.
 
-  The following methods are variants of the ones we saw on HW1.
+  The following methods are given to you.
   For each method, find the weakest precondition.
   Replace the precondition `requires false` when you have
   written the precondition.
