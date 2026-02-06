@@ -1,6 +1,6 @@
 # ECS 261 Homework 2: Verification in Dafny
 
-### Due date: Tuesday, February 10, 11:59pm
+### Due date: Friday, February 13, 11:59pm
 
 ## Getting started
 
